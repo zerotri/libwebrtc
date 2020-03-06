@@ -21,6 +21,8 @@
 #  LIBWEBRTC_TARGET_OS          - android, chromeos, ios, linux, nacl, mac or win
 #  LIBWEBRTC_TARGET_CPU         - x86, x64, arm, arm64 or mipsel
 
+set(CMAKE_INSTALL_MESSAGE LAZY)
+
 # LibWebRTC version number
 set(LIBWEBRTC_MAJOR_VERSION "@LIBWEBRTC_MAJOR_VERSION@")
 set(LIBWEBRTC_MINOR_VERSION "@LIBWEBRTC_MINOR_VERSION@")
